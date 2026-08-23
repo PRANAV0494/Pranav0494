@@ -99,10 +99,10 @@ A healthcare platform for <b>low-connectivity rural regions</b> — <b>RAG-based
 
 <div align="center">
 
-<img height="165" src="https://github-stats-extended.vercel.app/api?username=Pranav0494&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats" />
-<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Pranav0494&layout=compact&theme=chartreuse-dark&hide_border=true&langs_count=8" alt="Top languages" />
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=Pranav0494&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&include_all_commits=true&v=2" alt="GitHub stats" />
+<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Pranav0494&layout=compact&theme=chartreuse-dark&hide_border=true&langs_count=8&v=2" alt="Top languages" />
 
-<img src="https://streak-stats.demolab.com?user=Pranav0494&theme=chartreuse-dark&hide_border=true" alt="Streak stats" />
+<img src="https://streak-stats.demolab.com?user=Pranav0494&theme=chartreuse-dark&hide_border=true&v=2" alt="Streak stats" />
 
 </div>
 
@@ -111,7 +111,7 @@ A healthcare platform for <b>low-connectivity rural regions</b> — <b>RAG-based
 <br />
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Pranav0494&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&hide_border=true" alt="Activity graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Pranav0494&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&hide_border=true&v=2" alt="Activity graph" />
 
 <img src="https://github-profile-trophy.vercel.app/?username=Pranav0494&theme=matrix&no-frame=true&no-bg=true&column=4&row=2" alt="Trophies" />
 
