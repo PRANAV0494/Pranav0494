@@ -3,7 +3,7 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0a2e14,100:00FF41&height=220&section=header&text=PRANAV%20MAHESHWARI&fontSize=52&fontColor=00FF41&animation=fadeIn&desc=Machine%20Learning%20%C3%97%20Full-Stack%20Developer&descSize=20&descAlignY=78&fontAlignY=42)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=650&lines=Machine+Learning+Engineer+in+the+making;50%2B+models+trained+and+counting;LSTM+%7C+ARIMA+%7C+XGBoost+%7C+Explainable+AI;React+%2B+Flask+full-stack+builder;Patent-pending+innovator)](https://github.com/Pranav0494)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=650&lines=Machine+Learning+Engineer+in+the+making;Anomaly+detection+%26+behavioral+biometrics;XGBoost+%7C+LSTM+%7C+ARIMA+%7C+Explainable+AI;React+%2B+Flask+full-stack+builder;Patent-pending+innovator)](https://github.com/Pranav0494)
 
 <img src="https://komarev.com/ghpvc/?username=Pranav0494&style=for-the-badge&color=00ff41&label=PROFILE+VIEWS" alt="Profile views" />
 
@@ -24,15 +24,13 @@ Training models by day, building full-stack apps by night.
 
 <img align="right" src="https://user-images.githubusercontent.com/74038190/212749168-86d6c7ab-98da-409b-998f-c5b74721badd.gif" width="330" alt="Coding animation" />
 
-- 🧠 **50+ ML models** trained & evaluated — LSTM, ARIMA, XGBoost, tree ensembles, XAI with LIME & SHAP
-- 📈 Built a **stock forecasting system** — 30-day price prediction with ARIMA + LSTM, RSI/MACD indicators, Sharpe & VaR risk metrics
+- 🧠 **Anomaly detection & behavioral biometrics** — per-user Isolation Forest / One-Class SVM / LOF models for continuous authentication, evaluated with FAR, FRR and Equal Error Rate
+- 🛡️ **Intrusion detection at scale** — XGBoost & Random Forest across 6 public benchmarks (CICIDS2017, UNSW-NB15, CTU-13, BoT-IoT, IoT-23, BETH) with SMOTE and 5-fold cross-validation
+- 📈 **Time-series forecasting** — ARIMA + LSTM for 30-day price prediction, with RSI/MACD indicators and Sharpe & VaR risk metrics
 - 🩺 **Patent filed** — Offline-First Telemedicine Ecosystem for rural healthcare (RAG-based AI symptom detection + QR digital health records)
 - 🏗️ Shipped a **real-world school ERP** during my frontend internship — React + Tailwind + Flask, role-based dashboards
 - 🎤 **Secretary @ GEU IEEE Student Branch** — organized 50+ technical events & workshops
 - 🎯 **Open to ML / Software Engineering internships** — let's talk!
-<!-- ▼▼ SECURITY BLOCK — delete from here if you drop the security angle ▼▼ -->
-- 🛡️ Security-curious — **Google Cybersecurity Professional Certificate**, hands-on with Burp Suite
-<!-- ▲▲ SECURITY BLOCK — delete to here ▲▲ -->
 
 <br clear="both" />
 
@@ -41,9 +39,7 @@ Training models by day, building full-stack apps by night.
 - 💼 **Frontend Developer Intern** — KV Public School, Meerut *(3 months)*
   Built a production **ERP Management System**: React + Tailwind frontends on Flask REST APIs, role-based dashboards, and cloud-backed data handling (SQLite / Google Sheets) automating attendance, fees, marksheets & transfer certificates.
 - 🎓 **B.Tech in Computer Science** — Graphic Era (Deemed to be) University, Dehradun *(2023 – 2027)*
-<!-- ▼▼ SECURITY BLOCK — delete from here if you drop the security angle ▼▼ -->
 - 📜 **Google Cybersecurity Professional Certificate** — 8-course specialization: network security, threat detection & response, Linux, SQL, Python security automation
-<!-- ▲▲ SECURITY BLOCK — delete to here ▲▲ -->
 - ☁️ **AWS training modules** — Amazon HealthLake, Agentic AI (SNS, SQS, MQ), Generative AI sustainability
 
 ## `$ ls skills/`
@@ -59,9 +55,7 @@ Training models by day, building full-stack apps by night.
 ![Streamlit](https://img.shields.io/badge/Streamlit-0D1117?style=for-the-badge&logo=streamlit&logoColor=00FF41)
 ![Jupyter](https://img.shields.io/badge/Jupyter-0D1117?style=for-the-badge&logo=jupyter&logoColor=00FF41)
 ![Google Sheets API](https://img.shields.io/badge/Google%20Sheets%20API-0D1117?style=for-the-badge&logo=googlesheets&logoColor=00FF41)
-<!-- ▼▼ SECURITY BLOCK — delete from here if you drop the security angle ▼▼ -->
 ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-0D1117?style=for-the-badge&logo=burpsuite&logoColor=00FF41)
-<!-- ▲▲ SECURITY BLOCK — delete to here ▲▲ -->
 
 </div>
 
@@ -70,18 +64,33 @@ Training models by day, building full-stack apps by night.
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3 align="center">🧠 AI-Augmented Vulnerability Detection</h3>
-<p align="center"><code>ML × Security</code></p>
+<h3 align="center">🔐 Behavioral Biometric Authentication</h3>
+<p align="center"><code>Anomaly Detection · Continuous Auth</code></p>
 <p align="center">
-An <b>XGBoost-powered pipeline</b> that classifies and prioritizes <b>OWASP Top 10</b> vulnerabilities (SQLi, XSS, CSRF, auth flaws) from live Burp Suite traffic — automated + manual testing with Proxy, Repeater & Intruder, producing risk-ranked remediation reports.
+Continuous authentication from <b>typing rhythm alone</b> — 30+ dwell, flight, digraph and timing-entropy features feeding <b>per-user Isolation Forest, One-Class SVM & LOF</b> models across 51 subjects. <b>EER 0.137–0.154</b> per-user vs 0.51 for a global model (paired t-test, p ≈ 4.7e-21). Deployed as Firebase + FastAPI on AWS Lambda with DynamoDB.
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=00FF41" />
 <img src="https://img.shields.io/badge/Scikit--learn-0D1117?style=flat-square&logo=scikitlearn&logoColor=00FF41" />
-<img src="https://img.shields.io/badge/XGBoost-0D1117?style=flat-square" />
-<img src="https://img.shields.io/badge/Burp%20Suite-0D1117?style=flat-square&logo=burpsuite&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/AWS%20Lambda-0D1117?style=flat-square&logo=awslambda&logoColor=00FF41" />
 </p>
 </td>
+<td width="50%" valign="top">
+<h3 align="center">🛡️ Network Intrusion Detection Model Zoo</h3>
+<p align="center"><code>ML × Security</code></p>
+<p align="center">
+<b>XGBoost & Random Forest</b> classifiers trained across <b>6 public intrusion-detection benchmarks</b> — CICIDS2017, UNSW-NB15, CTU-13, BoT-IoT, IoT-23 and BETH — using SMOTE for class imbalance and 5-fold cross-validation on multi-million-row captures, some GPU-trained via RAPIDS cuML.
+</p>
+<p align="center">
+<img src="https://img.shields.io/badge/XGBoost-0D1117?style=flat-square" />
+<img src="https://img.shields.io/badge/RandomForest-0D1117?style=flat-square" />
+<img src="https://img.shields.io/badge/SMOTE-0D1117?style=flat-square" />
+<img src="https://img.shields.io/badge/RAPIDS%20cuML-0D1117?style=flat-square&logo=nvidia&logoColor=00FF41" />
+</p>
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <h3 align="center">🩺 Offline-First Telemedicine Ecosystem</h3>
 <p align="center"><code>Patent Filed</code></p>
