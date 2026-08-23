@@ -1,0 +1,38 @@
+name: refresh stats
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Query GitHub GraphQL and update stats.json
+        env:
+          GH_TOKEN: ${{ secrets.STATS_PAT || secrets.GITHUB_TOKEN }}
+          HAS_PAT: ${{ secrets.STATS_PAT != '' }}
+        run: |
+          set -e
+          q='query { user(login: "Pranav0494") { pullRequests { totalCount } issues { totalCount } contributionsCollection { totalCommitContributions restrictedContributionsCount contributionCalendar { totalContributions } } } }'
+          resp=$(gh api graphql -f query="$q") || { echo "GraphQL query failed; keeping seeded stats"; exit 0; }
+          contrib=$(echo "$resp" | jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')
+          if [ "$HAS_PAT" = "true" ]; then
+            # PAT sees private repos: refresh every number
+            jq -n \
+              --argjson c "$contrib" \
+              --argjson p "$(echo "$resp" | jq '.data.user.pullRequests.totalCount')" \
+              --argjson i "$(echo "$resp" | jq '.data.user.issues.totalCount')" \
+              --argjson m "$(echo "$resp" | jq '.data.user.contributionsCollection | .totalCommitContributions + .restrictedContributionsCount')" \
+              '{contributions: $c, commits_last_year: $m, total_prs: $p, total_issues: $i}' > stats.json
+          else
+            # default token only sees the public calendar: refresh contributions, keep the rest
+            jq --argjson c "$contrib" '.contributions = $c' stats.json > stats.tmp && mv stats.tmp stats.json
+          fi
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add stats.json
+          git commit -m "chore: refresh stats.json" || echo "stats unchanged"
+          git push

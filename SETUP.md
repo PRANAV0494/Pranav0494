@@ -45,6 +45,14 @@ The **AI-Augmented Vulnerability Detection** project card is NOT inside markers 
 - **GitHub caches images ~hours** (camo proxy). Edits to card URLs can take a while to show; add a dummy query param like `&v=2` to force refresh.
 - **Scheduled Actions auto-disable after 60 days without repo activity** — if the snake freezes months from now, just re-enable the workflow in the Actions tab.
 
+## Keeping the stats badges accurate (optional 2-minute step)
+
+The `$ htop --stats` badges read from `stats.json`, refreshed daily by `.github/workflows/stats.yml`. Without a token, the workflow can only auto-refresh the contributions number; the PR/commit/issue numbers stay at their seeded values. To keep ALL numbers auto-updating (including private-repo PRs):
+
+1. Create a token at https://github.com/settings/tokens → "Generate new token (classic)" → scope: `repo` → no expiration or 1 year.
+2. In your own terminal (NOT in a chat): `gh secret set STATS_PAT -R PRANAV0494/Pranav0494` and paste the token when prompted.
+3. Done — the workflow detects the secret automatically on its next run.
+
 ## What's in here
 
 | File | Purpose |

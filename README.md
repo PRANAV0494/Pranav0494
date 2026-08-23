@@ -110,6 +110,17 @@ A healthcare platform for <b>low-connectivity rural regions</b> — <b>RAG-based
 
 <div align="center">
 
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPranav0494%2FPranav0494%2Fmain%2Fstats.json&query=%24.contributions&label=CONTRIBUTIONS%20%C2%B7%20LAST%20YEAR&style=for-the-badge&labelColor=0d1117&color=00ff41" alt="Contributions" />
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPranav0494%2FPranav0494%2Fmain%2Fstats.json&query=%24.commits_last_year&label=COMMITS%20%C2%B7%20LAST%20YEAR&style=for-the-badge&labelColor=0d1117&color=00ff41" alt="Commits" />
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPranav0494%2FPranav0494%2Fmain%2Fstats.json&query=%24.total_prs&label=PULL%20REQUESTS%20%C2%B7%20ALL%20TIME&style=for-the-badge&labelColor=0d1117&color=00ff41" alt="Pull requests" />
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPranav0494%2FPranav0494%2Fmain%2Fstats.json&query=%24.total_issues&label=ISSUES%20%C2%B7%20ALL%20TIME&style=for-the-badge&labelColor=0d1117&color=00ff41" alt="Issues" />
+
+<sup>public + private activity · auto-updated daily by <a href="https://github.com/Pranav0494/Pranav0494/blob/main/.github/workflows/stats.yml">this workflow</a> from the GitHub API</sup>
+
+</div>
+
+<div align="center">
+
 <img height="165" src="https://github-stats-extended.vercel.app/api?username=Pranav0494&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&hide=commits&v=4" alt="GitHub stats" />
 <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Pranav0494&layout=compact&theme=chartreuse-dark&hide_border=true&langs_count=8&v=2" alt="Top languages" />
 
