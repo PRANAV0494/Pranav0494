@@ -22,18 +22,29 @@ Training models by day, building full-stack apps by night.
 
 ## `$ whoami --verbose`
 
-<img align="right" src="https://media.giphy.com/media/sULKEgDMX8LcI/giphy.gif" width="300" alt="Matrix rain" />
+<img align="right" src="https://user-images.githubusercontent.com/74038190/212749168-86d6c7ab-98da-409b-998f-c5b74721badd.gif" width="330" alt="Coding animation" />
 
 - 🧠 **50+ ML models** trained & evaluated — LSTM, ARIMA, XGBoost, tree ensembles, XAI with LIME & SHAP
 - 📈 Built a **stock forecasting system** — 30-day price prediction with ARIMA + LSTM, RSI/MACD indicators, Sharpe & VaR risk metrics
 - 🩺 **Patent filed** — Offline-First Telemedicine Ecosystem for rural healthcare (RAG-based AI symptom detection + QR digital health records)
 - 🏗️ Shipped a **real-world school ERP** during my frontend internship — React + Tailwind + Flask, role-based dashboards
 - 🎤 **Secretary @ GEU IEEE Student Branch** — organized 50+ technical events & workshops
+- 🎯 **Open to ML / Software Engineering internships** — let's talk!
 <!-- ▼▼ SECURITY BLOCK — delete from here if you drop the security angle ▼▼ -->
 - 🛡️ Security-curious — **Google Cybersecurity Professional Certificate**, hands-on with Burp Suite
 <!-- ▲▲ SECURITY BLOCK — delete to here ▲▲ -->
 
 <br clear="both" />
+
+## `$ cat experience.log`
+
+- 💼 **Frontend Developer Intern** — KV Public School, Meerut *(3 months)*
+  Built a production **ERP Management System**: React + Tailwind frontends on Flask REST APIs, role-based dashboards, and cloud-backed data handling (SQLite / Google Sheets) automating attendance, fees, marksheets & transfer certificates.
+- 🎓 **B.Tech in Computer Science** — Graphic Era (Deemed to be) University, Dehradun *(2023 – 2027)*
+<!-- ▼▼ SECURITY BLOCK — delete from here if you drop the security angle ▼▼ -->
+- 📜 **Google Cybersecurity Professional Certificate** — 8-course specialization: network security, threat detection & response, Linux, SQL, Python security automation
+<!-- ▲▲ SECURITY BLOCK — delete to here ▲▲ -->
+- ☁️ **AWS training modules** — Amazon HealthLake, Agentic AI (SNS, SQS, MQ), Generative AI sustainability
 
 ## `$ ls skills/`
 
@@ -99,7 +110,7 @@ A healthcare platform for <b>low-connectivity rural regions</b> — <b>RAG-based
 
 <div align="center">
 
-<img height="165" src="https://github-stats-extended.vercel.app/api?username=Pranav0494&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&include_all_commits=true&v=2" alt="GitHub stats" />
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=Pranav0494&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&v=3" alt="GitHub stats" />
 <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Pranav0494&layout=compact&theme=chartreuse-dark&hide_border=true&langs_count=8&v=2" alt="Top languages" />
 
 <img src="https://streak-stats.demolab.com?user=Pranav0494&theme=chartreuse-dark&hide_border=true&v=2" alt="Streak stats" />
@@ -107,13 +118,11 @@ A healthcare platform for <b>low-connectivity rural regions</b> — <b>RAG-based
 </div>
 
 <details>
-<summary><b>📊 More stats — activity graph & trophies</b></summary>
+<summary><b>📊 More stats — contribution activity graph</b></summary>
 <br />
 <div align="center">
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Pranav0494&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&hide_border=true&v=2" alt="Activity graph" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=Pranav0494&theme=matrix&no-frame=true&no-bg=true&column=4&row=2" alt="Trophies" />
 
 </div>
 </details>
