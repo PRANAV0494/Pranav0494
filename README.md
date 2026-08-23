@@ -67,7 +67,7 @@ Training models by day, building full-stack apps by night.
 <h3 align="center">🔐 Behavioral Biometric Authentication</h3>
 <p align="center"><code>Anomaly Detection · Continuous Auth</code></p>
 <p align="center">
-Continuous authentication from <b>typing rhythm alone</b> — 30+ dwell, flight, digraph and timing-entropy features feeding <b>per-user Isolation Forest, One-Class SVM & LOF</b> models across 51 subjects. <b>EER 0.137–0.154</b> per-user vs 0.51 for a global model (paired t-test, p ≈ 4.7e-21). Deployed as Firebase + FastAPI on AWS Lambda with DynamoDB.
+Continuous authentication from <b>typing rhythm alone</b> — 30+ dwell, flight, digraph and timing-entropy features feeding <b>per-user Isolation Forest, One-Class SVM & LOF</b> models across 51 subjects on the CMU benchmark. Best <b>EER 0.137</b> (LOF), with One-Class SVM significantly ahead of Isolation Forest (paired t-test, t = 3.11, p = 0.003). Deployed as Firebase + FastAPI on AWS Lambda with DynamoDB.
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=00FF41" />
