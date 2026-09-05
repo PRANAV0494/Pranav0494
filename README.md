@@ -3,7 +3,7 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0a2e14,100:00FF41&height=220&section=header&text=PRANAV%20MAHESHWARI&fontSize=52&fontColor=00FF41&animation=fadeIn&desc=Machine%20Learning%20%C3%97%20Full-Stack%20Developer&descSize=20&descAlignY=78&fontAlignY=42)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=650&lines=Machine+Learning+Engineer+in+the+making;Anomaly+detection+%26+behavioral+biometrics;XGBoost+%7C+LSTM+%7C+ARIMA+%7C+Explainable+AI;React+%2B+Flask+full-stack+builder;Patent-pending+innovator)](https://github.com/Pranav0494)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=650&lines=Machine+Learning+%C3%97+Security+Engineer;Continuous+auth+%26+behavioral+biometrics;XGBoost+%7C+LSTM+%7C+ARIMA+%7C+Explainable+AI;React+%2B+Flask+full-stack+builder;Patent-pending+innovator)](https://github.com/Pranav0494)
 
 <img src="https://komarev.com/ghpvc/?username=Pranav0494&style=for-the-badge&color=00ff41&label=PROFILE+VIEWS" alt="Profile views" />
 
@@ -24,7 +24,7 @@ Training models by day, building full-stack apps by night.
 
 <img align="right" src="https://user-images.githubusercontent.com/74038190/212749168-86d6c7ab-98da-409b-998f-c5b74721badd.gif" width="330" alt="Coding animation" />
 
-- 🧠 **Anomaly detection & behavioral biometrics** — per-user Isolation Forest / One-Class SVM / LOF models for continuous authentication, evaluated with FAR, FRR and Equal Error Rate
+- 🧠 **Continuous authentication & behavioral biometrics** — [CADENCE](https://github.com/Pranav0494/cadence): a transparent proxy that keeps verifying *who is driving* a session after login, fusing keystroke provenance, identity drift and automation signals through a sequential likelihood-ratio test
 - 🛡️ **Intrusion detection at scale** — XGBoost & Random Forest across 6 public benchmarks (CICIDS2017, UNSW-NB15, CTU-13, BoT-IoT, IoT-23, BETH) with SMOTE and 5-fold cross-validation
 - 📈 **Time-series forecasting** — ARIMA + LSTM for 30-day price prediction, with RSI/MACD indicators and Sharpe & VaR risk metrics
 - 🩺 **Patent filed** — Offline-First Telemedicine Ecosystem for rural healthcare (RAG-based AI symptom detection + QR digital health records)
@@ -64,16 +64,16 @@ Training models by day, building full-stack apps by night.
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3 align="center">🔐 Behavioral Biometric Authentication</h3>
-<p align="center"><code>Anomaly Detection · Continuous Auth</code></p>
+<h3 align="center">🎼 CADENCE</h3>
+<p align="center"><code>Continuous Auth · Research Prototype</code></p>
 <p align="center">
-Continuous authentication from <b>typing rhythm alone</b> — 30+ dwell, flight, digraph and timing-entropy features feeding <b>per-user Isolation Forest, One-Class SVM & LOF</b> models across 51 subjects on the CMU benchmark. Best <b>EER 0.137</b> (LOF), with One-Class SVM significantly ahead of Isolation Forest (paired t-test, t = 3.11, p = 0.003). Deployed as Firebase + FastAPI on AWS Lambda with DynamoDB.
+Every authentication control fires <b>once, at the door</b>. CADENCE keeps asking <b>who is driving</b> the session after login — a <b>mitmproxy</b> edge injects a capture SDK and reconciles form POSTs against observed keystrokes <b>server-side</b>, so patching the in-page JS yields a submission with no supporting keystrokes, which is itself the detection. Provenance, identity drift and automation fuse through a <b>calibrated sequential log-LR (Wald's SPRT)</b> into <b>RFC 9470</b> step-up. 302 tests, and CI fails the build if any number in the docs disagrees with the measured-results file.
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=00FF41" />
-<img src="https://img.shields.io/badge/Scikit--learn-0D1117?style=flat-square&logo=scikitlearn&logoColor=00FF41" />
-<img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=00FF41" />
-<img src="https://img.shields.io/badge/AWS%20Lambda-0D1117?style=flat-square&logo=awslambda&logoColor=00FF41" />
+<a href="https://github.com/Pranav0494/cadence"><img src="https://img.shields.io/badge/Repo-0D1117?style=flat-square&logo=github&logoColor=00FF41" /></a>
+<img src="https://img.shields.io/badge/mitmproxy-0D1117?style=flat-square" />
+<img src="https://img.shields.io/badge/SPRT-0D1117?style=flat-square" />
+<img src="https://img.shields.io/badge/RFC%209470-0D1117?style=flat-square" />
 </p>
 </td>
 <td width="50%" valign="top">
@@ -104,16 +104,21 @@ A healthcare platform for <b>low-connectivity rural regions</b> — <b>RAG-based
 <img src="https://img.shields.io/badge/HealthTech-0D1117?style=flat-square" />
 </p>
 </td>
+<td width="50%" valign="top">
+<h3 align="center">📈 Stock Forecasting & Risk</h3>
+<p align="center"><code>Time-Series · ARIMA + LSTM</code></p>
+<p align="center">
+30-day price forecasting combining a statistical <b>ARIMA</b> baseline with an <b>LSTM</b> sequence model, fed by RSI and MACD technical indicators and scored on <b>Sharpe ratio and Value-at-Risk</b> rather than accuracy alone — because a forecast that ignores downside risk is not a trading signal.
+</p>
+<p align="center">
+<a href="https://github.com/Pranav0494/Stock_Project"><img src="https://img.shields.io/badge/Repo-0D1117?style=flat-square&logo=github&logoColor=00FF41" /></a>
+<img src="https://img.shields.io/badge/ARIMA-0D1117?style=flat-square" />
+<img src="https://img.shields.io/badge/LSTM-0D1117?style=flat-square" />
+<img src="https://img.shields.io/badge/TensorFlow-0D1117?style=flat-square&logo=tensorflow&logoColor=00FF41" />
+</p>
+</td>
 </tr>
 </table>
-
-<div align="center">
-
-**`└─$ ls more_projects/`**
-
-[<img src="https://github-stats-extended.vercel.app/api/pin/?username=Pranav0494&repo=Stock_Project&theme=chartreuse-dark&hide_border=true" alt="Stock forecasting project" />](https://github.com/Pranav0494/Stock_Project)
-
-</div>
 
 ## `$ htop --stats`
 
@@ -163,7 +168,7 @@ A healthcare platform for <b>low-connectivity rural regions</b> — <b>RAG-based
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/pranavm0494)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00FF41)](https://www.linkedin.com/in/pranavm0494)
 [![Gmail](https://img.shields.io/badge/Gmail-0D1117?style=for-the-badge&logo=gmail&logoColor=00FF41)](mailto:pranavm494@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00FF41)](https://github.com/Pranav0494)
 
