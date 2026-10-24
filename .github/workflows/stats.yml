@@ -16,7 +16,7 @@ jobs:
           HAS_PAT: ${{ secrets.STATS_PAT != '' }}
         run: |
           set -e
-          q='query { user(login: "Pranav0494") { pullRequests { totalCount } issues { totalCount } contributionsCollection { totalCommitContributions restrictedContributionsCount contributionCalendar { totalContributions } } } }'
+          q='query { user(login: "Pranav0494") { pullRequests { totalCount } issues { totalCount } contributionsCollection { contributionCalendar { totalContributions } } } }'
           if ! resp=$(gh api graphql -f query="$q" 2>&1); then
             echo "GraphQL query failed: $resp"
             # A rejected PAT must be loud — silently keeping stale numbers is worse than failing.
@@ -27,11 +27,14 @@ jobs:
           contrib=$(echo "$resp" | jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')
           if [ "$HAS_PAT" = "true" ]; then
             # PAT sees private repos: refresh every number
+            # restrictedContributionsCount lumps private PRs/issues/reviews in with commits, so count commits directly
+            since=$(date -u -d '1 year ago' +%F)
+            m=$(gh api -X GET search/commits -f q="author:Pranav0494 author-date:>=$since" --jq .total_count)
             jq -n \
               --argjson c "$contrib" \
               --argjson p "$(echo "$resp" | jq '.data.user.pullRequests.totalCount')" \
               --argjson i "$(echo "$resp" | jq '.data.user.issues.totalCount')" \
-              --argjson m "$(echo "$resp" | jq '.data.user.contributionsCollection | .totalCommitContributions + .restrictedContributionsCount')" \
+              --argjson m "$m" \
               '{contributions: $c, commits_last_year: $m, total_prs: $p, total_issues: $i}' > stats.json
           else
             # default token only sees the public calendar: refresh contributions, keep the rest
